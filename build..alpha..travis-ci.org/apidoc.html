@@ -49,9 +49,7 @@
 <h1>api documentation for
     <a
 
-        href="https://github.com/hapijs/wreck#readme"
-
-    >wreck (v12.0.0)</a>
+    >wreck (v12.1.0)</a>
 </h1>
 <h4>HTTP Client Utilities</h4>
 <div class="apidocSectionDiv"><a
@@ -65,6 +63,33 @@
 
             <a class="apidocElementLiA" href="#apidoc.element.wreck.emit">
             function <span class="apidocSignatureSpan">wreck.</span>emit
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wreck.payload">
+            function <span class="apidocSignatureSpan">wreck.</span>payload
+            <span class="apidocSignatureSpan">(payload, encoding)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wreck.recorder">
+            function <span class="apidocSignatureSpan">wreck.</span>recorder
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wreck.tap">
+            function <span class="apidocSignatureSpan">wreck.</span>tap
             <span class="apidocSignatureSpan">()</span>
             </a>
 
@@ -100,6 +125,147 @@
 
         </li>
 
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">wreck.</span>payload.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">wreck.</span>recorder.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">wreck.</span>tap.prototype</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.wreck.payload">module wreck.payload</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wreck.payload.payload">
+            function <span class="apidocSignatureSpan">wreck.</span>payload
+            <span class="apidocSignatureSpan">(payload, encoding)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wreck.payload.super_">
+            function <span class="apidocSignatureSpan">wreck.payload.</span>super_
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.wreck.payload.prototype">module wreck.payload.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wreck.payload.prototype._read">
+            function <span class="apidocSignatureSpan">wreck.payload.prototype.</span>_read
+            <span class="apidocSignatureSpan">(size)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.wreck.recorder">module wreck.recorder</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wreck.recorder.recorder">
+            function <span class="apidocSignatureSpan">wreck.</span>recorder
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wreck.recorder.super_">
+            function <span class="apidocSignatureSpan">wreck.recorder.</span>super_
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.wreck.recorder.prototype">module wreck.recorder.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wreck.recorder.prototype._write">
+            function <span class="apidocSignatureSpan">wreck.recorder.prototype.</span>_write
+            <span class="apidocSignatureSpan">(chunk, encoding, next)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wreck.recorder.prototype.collect">
+            function <span class="apidocSignatureSpan">wreck.recorder.prototype.</span>collect
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.wreck.tap">module wreck.tap</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wreck.tap.tap">
+            function <span class="apidocSignatureSpan">wreck.</span>tap
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wreck.tap.super_">
+            function <span class="apidocSignatureSpan">wreck.tap.</span>super_
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.wreck.tap.prototype">module wreck.tap.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wreck.tap.prototype._transform">
+            function <span class="apidocSignatureSpan">wreck.tap.prototype.</span>_transform
+            <span class="apidocSignatureSpan">(chunk, encoding, next)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wreck.tap.prototype.collect">
+            function <span class="apidocSignatureSpan">wreck.tap.prototype.</span>collect
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
@@ -121,6 +287,87 @@
     selfEmit.apply(self, arguments);
     processEmitter.emit.apply(processEmitter, arguments);
 }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+
+internals.Recorder.prototype._write = function (chunk, encoding, next) {
+
+    if (this.settings.maxBytes &#x26;&#x26;
+        this.length + chunk.length &#x3e; this.settings.maxBytes) {
+
+        return this.<span class="apidocCodeKeywordSpan">emit</span>(&#x27;error&#x27;, Boom.badRequest(&#x27;Payload content length
+ greater than maximum allowed: &#x27; + this.settings.maxBytes));
+    }
+
+    this.length = this.length + chunk.length;
+    this.buffers.push(chunk);
+    next();
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.wreck.payload" id="apidoc.element.wreck.payload">
+        function <span class="apidocSignatureSpan">wreck.</span>payload
+        <span class="apidocSignatureSpan">(payload, encoding)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">payload = function (payload, encoding) {
+
+    Stream.Readable.call(this);
+
+    const data = [].concat(payload || &#x27;&#x27;);
+    let size = 0;
+    for (let i = 0; i &#x3c; data.length; ++i) {
+        const chunk = data[i];
+        size = size + chunk.length;
+        data[i] = Buffer.isBuffer(chunk) ? chunk : new Buffer(chunk);
+    }
+
+    this._data = Buffer.concat(data, size);
+    this._position = 0;
+    this._encoding = encoding || &#x27;utf8&#x27;;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.wreck.recorder" id="apidoc.element.wreck.recorder">
+        function <span class="apidocSignatureSpan">wreck.</span>recorder
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">recorder = function (options) {
+
+    Stream.Writable.call(this);
+
+    this.settings = options;                // No need to clone since called internally with new object
+    this.buffers = [];
+    this.length = 0;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.wreck.tap" id="apidoc.element.wreck.tap">
+        function <span class="apidocSignatureSpan">wreck.</span>tap
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">tap = function () {
+
+    Stream.Transform.call(this);
+    this.buffers = [];
+}</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
 
@@ -133,6 +380,319 @@
 
 
 
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.wreck.payload" id="apidoc.module.wreck.payload">module wreck.payload</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.wreck.payload.payload" id="apidoc.element.wreck.payload.payload">
+        function <span class="apidocSignatureSpan">wreck.</span>payload
+        <span class="apidocSignatureSpan">(payload, encoding)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">payload = function (payload, encoding) {
+
+    Stream.Readable.call(this);
+
+    const data = [].concat(payload || &#x27;&#x27;);
+    let size = 0;
+    for (let i = 0; i &#x3c; data.length; ++i) {
+        const chunk = data[i];
+        size = size + chunk.length;
+        data[i] = Buffer.isBuffer(chunk) ? chunk : new Buffer(chunk);
+    }
+
+    this._data = Buffer.concat(data, size);
+    this._position = 0;
+    this._encoding = encoding || &#x27;utf8&#x27;;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.wreck.payload.super_" id="apidoc.element.wreck.payload.super_">
+        function <span class="apidocSignatureSpan">wreck.payload.</span>super_
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Readable(options) {
+  if (!(this instanceof Readable))
+    return new Readable(options);
+
+  this._readableState = new ReadableState(options, this);
+
+  // legacy
+  this.readable = true;
+
+  if (options &#x26;&#x26; typeof options.read === &#x27;function&#x27;)
+    this._read = options.read;
+
+  Stream.call(this);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.wreck.payload.prototype" id="apidoc.module.wreck.payload.prototype">module wreck.payload.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.wreck.payload.prototype._read" id="apidoc.element.wreck.payload.prototype._read">
+        function <span class="apidocSignatureSpan">wreck.payload.prototype.</span>_read
+        <span class="apidocSignatureSpan">(size)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_read = function (size) {
+
+    const chunk = this._data.slice(this._position, this._position + size);
+    this.push(chunk, this._encoding);
+    this._position = this._position + chunk.length;
+
+    if (this._position &#x3e;= this._data.length) {
+        this.push(null);
+    }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.wreck.recorder" id="apidoc.module.wreck.recorder">module wreck.recorder</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.wreck.recorder.recorder" id="apidoc.element.wreck.recorder.recorder">
+        function <span class="apidocSignatureSpan">wreck.</span>recorder
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">recorder = function (options) {
+
+    Stream.Writable.call(this);
+
+    this.settings = options;                // No need to clone since called internally with new object
+    this.buffers = [];
+    this.length = 0;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.wreck.recorder.super_" id="apidoc.element.wreck.recorder.super_">
+        function <span class="apidocSignatureSpan">wreck.recorder.</span>super_
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Writable(options) {
+  // Writable ctor is applied to Duplexes, too.
+  // `realHasInstance` is necessary because using plain `instanceof`
+  // would return false, as no `_writableState` property is attached.
+
+  // Trying to use the custom `instanceof` for Writable here will also break the
+  // Node.js LazyTransform implementation, which has a non-trivial getter for
+  // `_writableState` that would lead to infinite recursion.
+  if (!(realHasInstance.call(Writable, this)) &#x26;&#x26;
+      !(this instanceof Stream.Duplex)) {
+    return new Writable(options);
+  }
+
+  this._writableState = new WritableState(options, this);
+
+  // legacy.
+  this.writable = true;
+
+  if (options) {
+    if (typeof options.write === &#x27;function&#x27;)
+      this._write = options.write;
+
+    if (typeof options.writev === &#x27;function&#x27;)
+      this._writev = options.writev;
+  }
+
+  Stream.call(this);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.wreck.recorder.prototype" id="apidoc.module.wreck.recorder.prototype">module wreck.recorder.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.wreck.recorder.prototype._write" id="apidoc.element.wreck.recorder.prototype._write">
+        function <span class="apidocSignatureSpan">wreck.recorder.prototype.</span>_write
+        <span class="apidocSignatureSpan">(chunk, encoding, next)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_write = function (chunk, encoding, next) {
+
+    if (this.settings.maxBytes &#x26;&#x26;
+        this.length + chunk.length &#x3e; this.settings.maxBytes) {
+
+        return this.emit(&#x27;error&#x27;, Boom.badRequest(&#x27;Payload content length greater than maximum allowed: &#x27; + this.settings.maxBytes
+));
+    }
+
+    this.length = this.length + chunk.length;
+    this.buffers.push(chunk);
+    next();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.wreck.recorder.prototype.collect" id="apidoc.element.wreck.recorder.prototype.collect">
+        function <span class="apidocSignatureSpan">wreck.recorder.prototype.</span>collect
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">collect = function () {
+
+    const buffer = (this.buffers.length === 0 ? new Buffer(0) : (this.buffers.length === 1 ? this.buffers[0] : Buffer.concat(this
+.buffers, this.length)));
+    return buffer;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.wreck.tap" id="apidoc.module.wreck.tap">module wreck.tap</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.wreck.tap.tap" id="apidoc.element.wreck.tap.tap">
+        function <span class="apidocSignatureSpan">wreck.</span>tap
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">tap = function () {
+
+    Stream.Transform.call(this);
+    this.buffers = [];
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.wreck.tap.super_" id="apidoc.element.wreck.tap.super_">
+        function <span class="apidocSignatureSpan">wreck.tap.</span>super_
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Transform(options) {
+  if (!(this instanceof Transform))
+    return new Transform(options);
+
+  Duplex.call(this, options);
+
+  this._transformState = new TransformState(this);
+
+  var stream = this;
+
+  // start out asking for a readable event once data is transformed.
+  this._readableState.needReadable = true;
+
+  // we have implemented the _read method, and done the other things
+  // that Readable wants before the first _read call, so unset the
+  // sync guard flag.
+  this._readableState.sync = false;
+
+  if (options) {
+    if (typeof options.transform === &#x27;function&#x27;)
+      this._transform = options.transform;
+
+    if (typeof options.flush === &#x27;function&#x27;)
+      this._flush = options.flush;
+  }
+
+  // When the writable side finishes, then flush out anything remaining.
+  this.once(&#x27;prefinish&#x27;, function() {
+    if (typeof this._flush === &#x27;function&#x27;)
+      this._flush(function(er) {
+        done(stream, er);
+      });
+    else
+      done(stream);
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.wreck.tap.prototype" id="apidoc.module.wreck.tap.prototype">module wreck.tap.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.wreck.tap.prototype._transform" id="apidoc.element.wreck.tap.prototype._transform">
+        function <span class="apidocSignatureSpan">wreck.tap.prototype.</span>_transform
+        <span class="apidocSignatureSpan">(chunk, encoding, next)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">_transform = function (chunk, encoding, next) {
+
+    this.buffers.push(chunk);
+    next(null, chunk);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.wreck.tap.prototype.collect" id="apidoc.element.wreck.tap.prototype.collect">
+        function <span class="apidocSignatureSpan">wreck.tap.prototype.</span>collect
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">collect = function () {
+
+    return new Payload(this.buffers);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
 
 
 </div>
